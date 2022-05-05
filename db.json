@@ -1,0 +1,52 @@
+{
+  "heroes": [
+    {
+      "id": 1,
+      "lastName": "Prince",
+      "firstName": "Diana",
+      "heroName": "Wonder Womans"
+    },
+    {
+      "id": 2,
+      "lastName": "Parker",
+      "firstName": "Peter",
+      "heroName": "Spiderman"
+    },
+    {
+      "id": 3,
+      "lastName": "Rogers",
+      "firstName": "Steve",
+      "heroName": "Captain America"
+    },
+    {
+      "id": 4,
+      "lastName": "Allen",
+      "firstName": "Barry",
+      "heroName": "The Flash"
+    },
+    {
+      "id": 5,
+      "lastName": "Zor-El",
+      "firstName": "Kara",
+      "heroName": "Supergirl"
+    },
+    {
+      "id": 6,
+      "lastName": "Banner",
+      "firstName": "Bruce",
+      "heroName": "The Hulk"
+    },
+    {
+      "id": 7,
+      "lastName": "Howlett",
+      "firstName": "James",
+      "heroName": "Wolverine"
+    },
+    {
+      "lastName": "Maximof",
+      "firstName": "Wanda",
+      "heroName": "Scarlet Witch",
+      "id": 8
+    }
+  ]
+}

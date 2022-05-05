@@ -1,0 +1,10 @@
+<div *ngIf="showHeroList" class="container">
+  <app-hero-card
+    *ngFor="let hero of heroes"
+    [hero]="hero"
+    (delete)="deleteHero($event)"
+    (edit)="showEditHero($event)"
+  ></app-hero-card>
+</div>
+
+<app-add-hero (onAddHero)="addHero($event)"></app-add-hero>

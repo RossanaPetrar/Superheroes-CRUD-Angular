@@ -1,0 +1,42 @@
+<!-- Add Hero Form -->
+<br />
+<div class="container">
+  <form class="add-post-form" id="heroForm" (ngSubmit)="onSubmit()">
+    <h3>Add Hero</h3>
+    <div class="mb-3">
+      <label class="form-label">Hero Name</label>
+      <input
+        type="text"
+        name="heroName"
+        [(ngModel)]="heroName"
+        class="form-control"
+        id="heroName"
+        required
+      />
+    </div>
+    <div class="mb-3">
+      <label class="form-label">First Name</label>
+      <input
+        type="text"
+        name="firstName"
+        [(ngModel)]="firstName"
+        class="form-control"
+        id="firstName"
+        required
+      />
+    </div>
+    <div class="mb-3">
+      <label class="form-label">Last Name</label>
+      <input
+        type="text"
+        name="lastName"
+        [(ngModel)]="lastName"
+        class="form-control"
+        id="lastName"
+        required
+      />
+    </div>
+    <button type="submit" class="btn btn-success">Submit Hero</button>
+  </form>
+</div>
+<br />

@@ -1,0 +1,64 @@
+<div class="modal-header">
+  <button
+    type="button"
+    class="btn-close"
+    aria-label="Close"
+    (click)="activeModal.dismiss(null)"
+  ></button>
+</div>
+<div class="modal-body">
+  <div class="container">
+    <form class="add-post-form" id="heroForm">
+      <h3>Add Hero</h3>
+      <div class="mb-3">
+        <label class="form-label">Hero Name</label>
+        <input
+          type="text"
+          name="heroName"
+          [(ngModel)]="clonedHero.heroName"
+          class="form-control"
+          id="heroName"
+          required
+        />
+      </div>
+      <div class="mb-3">
+        <label class="form-label">First Name</label>
+        <input
+          type="text"
+          name="firstName"
+          [(ngModel)]="clonedHero.firstName"
+          class="form-control"
+          id="firstName"
+          required
+        />
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Last Name</label>
+        <input
+          type="text"
+          name="lastName"
+          [(ngModel)]="clonedHero.lastName"
+          class="form-control"
+          id="lastName"
+          required
+        />
+      </div>
+    </form>
+  </div>
+</div>
+<div class="modal-footer">
+  <button
+    type="button"
+    class="btn btn-outline-dark"
+    (click)="activeModal.dismiss(null)"
+  >
+    Cancel
+  </button>
+  <button
+    type="button"
+    class="btn btn-success"
+    (click)="activeModal.close(clonedHero)"
+  >
+    Save
+  </button>
+</div>
