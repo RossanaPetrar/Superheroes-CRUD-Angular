@@ -4,49 +4,57 @@
       "id": 1,
       "lastName": "Prince",
       "firstName": "Diana",
-      "heroName": "Wonder Womans"
+      "heroName": "Wonder Woman",
+      "image": "https://cdn.shopify.com/s/files/1/1379/0897/products/0821DC169_450x.jpg?v=1627118367"
     },
     {
       "id": 2,
       "lastName": "Parker",
       "firstName": "Peter",
-      "heroName": "Spiderman"
+      "heroName": "Spiderman",
+      "image": "https://i.pinimg.com/originals/3e/16/bf/3e16bff253abb380070095370ef15ae5.jpg"
     },
     {
       "id": 3,
       "lastName": "Rogers",
       "firstName": "Steve",
-      "heroName": "Captain America"
+      "heroName": "Captain America",
+      "image": "https://i.pinimg.com/564x/56/98/02/569802c8181de8987222cf199adfae7a.jpg"
     },
     {
       "id": 4,
       "lastName": "Allen",
       "firstName": "Barry",
-      "heroName": "The Flash"
+      "heroName": "The Flash",
+      "image": "https://i.pinimg.com/564x/b1/97/f1/b197f1c37f507c884c5b185c8d0b4028.jpg"
     },
     {
       "id": 5,
       "lastName": "Zor-El",
       "firstName": "Kara",
-      "heroName": "Supergirl"
+      "heroName": "Supergirl",
+      "image": "https://i.pinimg.com/564x/90/c8/3e/90c83edabed15be7666e15d55a3211cb.jpg"
     },
     {
       "id": 6,
       "lastName": "Banner",
       "firstName": "Bruce",
-      "heroName": "The Hulk"
+      "heroName": "The Hulk",
+      "image": "https://i.pinimg.com/564x/de/2f/0f/de2f0fb55e3fc8b849c1dcd7473f0980.jpg"
     },
     {
       "id": 7,
       "lastName": "Howlett",
       "firstName": "James",
-      "heroName": "Wolverine"
+      "heroName": "Wolverine",
+      "image": "https://i.pinimg.com/564x/ed/5c/5f/ed5c5f64d5bac208a0ab75830b73692e.jpg"
     },
     {
       "lastName": "Maximof",
       "firstName": "Wanda",
       "heroName": "Scarlet Witch",
-      "id": 8
+      "id": 8,
+      "image": "https://i.pinimg.com/564x/57/62/46/57624688487bc05ec268cbf38a3cdd94.jpg"
     }
   ]
 }

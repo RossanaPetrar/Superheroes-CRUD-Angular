@@ -1,10 +1,18 @@
-<div *ngIf="showHeroList" class="container">
-  <app-hero-card
-    *ngFor="let hero of heroes"
-    [hero]="hero"
-    (delete)="deleteHero($event)"
-    (edit)="showEditHero($event)"
-  ></app-hero-card>
+<!-- <div
+  class="d-flex justify-content-start flex-wrap"
+  style="border: 2px solid red"
+> -->
+
+<div class="container">
+  <div *ngIf="showHeroList" class="row">
+    <app-hero-card
+      *ngFor="let hero of heroes"
+      [hero]="hero"
+      (delete)="deleteHero($event)"
+      (edit)="showEditHero($event)"
+      class="col"
+    ></app-hero-card>
+  </div>
 </div>
 
 <app-add-hero (onAddHero)="addHero($event)"></app-add-hero>

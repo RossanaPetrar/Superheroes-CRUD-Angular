@@ -3,4 +3,5 @@ export interface Hero {
   lastName: string;
   firstName: string;
   heroName: string;
+  image: string;
 }

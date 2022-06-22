@@ -14,6 +14,7 @@ export class AddHeroComponent implements OnInit {
   lastName!: string;
   firstName!: string;
   heroName!: string;
+  image!: string;
   showHeroList!: boolean;
   subscription: Subscription;
 
@@ -34,6 +35,7 @@ export class AddHeroComponent implements OnInit {
       lastName: this.lastName,
       firstName: this.firstName,
       heroName: this.heroName,
+      image: this.image,
     };
 
     this.onAddHero.emit(newHero);
@@ -41,5 +43,6 @@ export class AddHeroComponent implements OnInit {
     this.lastName = '';
     this.firstName = '';
     this.heroName = '';
+    this.image = '';
   }
 }

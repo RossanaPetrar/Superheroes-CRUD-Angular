@@ -1,4 +1,4 @@
-<div class="container text-center">
+<!-- <div class="container text-center">
   <div class="hero-card card m-3">
     <div class="card-body">
       <h2>{{ hero.heroName }}</h2>
@@ -11,6 +11,24 @@
           DELETE
         </button>
       </div>
+    </div>
+  </div>
+</div> -->
+
+<div class="card my-2" style="width: 18rem">
+  <img src="{{ hero.image }}" class="card-img-top" alt="{{ hero.heroName }}" />
+  <div class="card-body">
+    <h5 class="card-title text-center">{{ hero.heroName }}</h5>
+    <p class="card-text text-center">
+      Real name: {{ hero.firstName }} {{ hero.lastName }}
+    </p>
+    <div class="container d-flex justify-content-center">
+      <button class="btn btn-success edit-post m-2" (click)="onEdit()">
+        Edit
+      </button>
+      <button (click)="onDelete()" class="btn btn-danger delete-post m-2">
+        Delete
+      </button>
     </div>
   </div>
 </div>
